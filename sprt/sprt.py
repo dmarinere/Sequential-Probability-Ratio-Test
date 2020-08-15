@@ -131,7 +131,7 @@ class SPRT:
 
             self.decision = "Continue"
 
-        header = 10 if self.num_observation > 10 else self.num_observation
+        header = 30 if self.num_observation > 30 else self.num_observation
         self.getResult(nobs=header)
 
     # Abstract method, calculate the boundary by time
